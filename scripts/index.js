@@ -125,7 +125,7 @@ console.log(randomSickPerson);
 
 for (var i = 0; i < population; i++) {
 
-    var radius = 1;   
+    var radius = 4;   
     var x = Math.random()* (innerWidth - radius * 1) + radius;
     var y = Math.random() * (innerHeight - radius * 1) + radius;
     var dx = (Math.random() - 0.5) * 1;
