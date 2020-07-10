@@ -128,8 +128,8 @@ for (var i = 0; i < population; i++) {
     var radius = 4;   
     var x = Math.random()* (innerWidth - radius * 1) + radius;
     var y = Math.random() * (innerHeight - radius * 1) + radius;
-    var dx = (Math.random() - 0.5) * 1;
-    var dy = (Math.random() - 0.5) * 1;
+    var dx = (Math.random() - 0.5) * 3;
+    var dy = (Math.random() - 0.5) * 3;
 
     if (i === randomSickPerson){
         personArray.push(new person(x, y, dx, dy, radius,'red','2'));
